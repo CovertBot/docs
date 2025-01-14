@@ -26,10 +26,8 @@
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
+  ],
+  "anchors": [
   ],
   "navigation": [
     {
@@ -60,27 +58,17 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "modules/overview",
+        "modules/promotions",
+        "modules/infractions",
+        "modules/suspensions",
+        "modules/moderationtools",
+        "modules/giveaways",
+        "modules/membertools",
+        "modules/servermanagement",
+        "modules/erlcintergration",
+        "modules/misccommands"
       ]
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "footerSocials": {
