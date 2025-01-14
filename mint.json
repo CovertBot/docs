@@ -1,74 +1,91 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Covert Bot",
+  "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/light.png",
-    "light": "/logo/dark.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#6483f6",
-    "light": "#87a5ff",
-    "dark": "#4a6de1",
-    "ultraLight": "#e8f0fe",
-    "ultraDark": "#3651b3",
-    "background": {
-      "dark": "#121212"
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
     }
   },
-  "theme": "prism",
   "topbarLinks": [
     {
-      "name": "Support Server",
-      "url": "https://discord.covertbot.xyz/"
-    },
-    {
-      "name": "Bot Invite",
-      "url": "https://invite.covertbot.xyz/"
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Website",
-    "url": "https://covertbot.xyz/"
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
   ],
   "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://mintlify.com/docs"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://mintlify.com/blog"
+    }
   ],
   "navigation": [
     {
-      "group": "",
+      "group": "Get Started",
       "pages": [
-        "home",
-        "commands"
+        "introduction",
+        "quickstart",
+        "development"
       ]
     },
     {
-      "group": "Welcome",
+      "group": "Essentials",
       "pages": [
-        "setup"
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
       ]
     },
     {
-      "group": "Modules",
+      "group": "API Documentation",
       "pages": [
-        "modules/overview",
-        "modules/promotions",
-        "modules/infractions",
-        "modules/suspensions",
-        "modules/moderationtools",
-        "modules/giveaways",
-        "modules/membertools",
-        "modules/servermanagement",
-        "modules/erlcintergration",
-        "modules/misccommands"
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "youtube": "https://www.youtube.com/@CovertBot",
-    "github": "https://github.com/CovertBot",
-    "x": "https://x.com/Covert_Bot",
-    "discord": "https://discord.covertbot.xyz/"
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://linkedin.com/company/mintlify"
   }
 }
