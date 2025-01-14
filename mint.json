@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Covert Bot",
+  "logo": {
+    "dark": "/logo/light.png",
+    "light": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#6483f6",
+    "light": "#87a5ff",
+    "dark": "#4a6de1",
+    "ultraLight": "#e8f0fe",
+    "ultraDark": "#3651b3",
+    "background": {
+      "dark": "#121212"
+    }
+  },
+  "theme": "prism",
+  "topbarLinks": [
+    {
+      "name": "Support Server",
+      "url": "https://discord.covertbot.xyz/"
+    },
+    {
+      "name": "Bot Invite",
+      "url": "https://invite.covertbot.xyz/"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Website",
+    "url": "https://covertbot.xyz/"
+  },
+  "tabs": [
+  ],
+  "anchors": [
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": [
+        "home",
+        "commands"
+      ]
+    },
+    {
+      "group": "Welcome",
+      "pages": [
+        "setup"
+      ]
+    },
+    {
+      "group": "Modules",
+      "pages": [
+        "modules/overview",
+        "modules/promotions",
+        "modules/infractions",
+        "modules/suspensions",
+        "modules/moderationtools",
+        "modules/giveaways",
+        "modules/membertools",
+        "modules/servermanagement",
+        "modules/erlcintergration",
+        "modules/misccommands"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "youtube": "https://www.youtube.com/@CovertBot",
+    "github": "https://github.com/CovertBot",
+    "x": "https://x.com/Covert_Bot",
+    "discord": "https://discord.covertbot.xyz/"
+  }
+}
