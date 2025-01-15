@@ -73,6 +73,13 @@
         "issues/bugs",
         "issues/response"
       ]
+    },
+    {
+      "group": "User Agreements",
+      "pages": [
+        "user-agreements/privacy-policy",
+        "user-agreements/terms-of-service"
+      ]
     }
   ],
   "footerSocials": {
