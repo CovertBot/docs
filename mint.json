@@ -60,8 +60,18 @@
         "modules/giveaways",
         "modules/membertools",
         "modules/servermanagement",
-        "modules/erlcintergration",
+        "modules/erlcintegration",
         "modules/misccommands"
+      ]
+    },
+    {
+      "group": "Common Issues",
+      "pages": [
+        "issues/missing",
+        "issues/invalid",
+        "issues/permitted",
+        "issues/bugs",
+        "issues/response"
       ]
     }
   ],
